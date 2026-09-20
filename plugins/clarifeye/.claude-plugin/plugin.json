@@ -1,0 +1,25 @@
+{
+  "name": "clarifeye",
+  "displayName": "Clarifeye",
+  "version": "0.1.0",
+  "description": "Connect Claude Code to your Clarifeye knowledge store.",
+  "author": {
+    "name": "Clarifeye",
+    "url": "https://clarifeye.ai"
+  },
+  "homepage": "https://clarifeye.ai",
+  "repository": "https://github.com/clarifeye/claude-plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "clarifeye",
+    "knowledge"
+  ],
+  "userConfig": {
+    "mcp_url": {
+      "type": "string",
+      "title": "Clarifeye MCP URL",
+      "description": "The MCP URL shown on your organization's Deploy Settings page in Clarifeye.",
+      "required": true
+    }
+  }
+}

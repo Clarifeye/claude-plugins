@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "clarifeye",
+  "description": "Clarifeye plugins for Claude Code.",
+  "owner": {
+    "name": "Clarifeye",
+    "url": "https://clarifeye.ai"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "clarifeye",
+      "source": "./plugins/clarifeye",
+      "description": "Connect Claude Code to your Clarifeye knowledge store.",
+      "category": "Knowledge",
+      "keywords": [
+        "clarifeye",
+        "knowledge"
+      ]
+    }
+  ]
+}
